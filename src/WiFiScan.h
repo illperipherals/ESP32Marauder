@@ -157,9 +157,9 @@ class WiFiScan
       "06 Never gonna say goodbye",
       "07 Never gonna tell a lie",
       "08 and hurt you"
-    }
+    };
 
-    char* prefix[] = "G";
+    char* prefix = "G";
 
     typedef struct
     {
