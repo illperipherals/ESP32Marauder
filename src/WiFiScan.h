@@ -159,7 +159,7 @@ class WiFiScan
       "08 and hurt you"
     }
 
-    char* prefix = "G";
+    char* prefix[] = "G";
 
     typedef struct
     {
