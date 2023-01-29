@@ -3020,7 +3020,7 @@ void WiFiScan::activeEapolSnifferCallback(void* buf, wifi_promiscuous_pkt_type_t
 #ifdef HAS_SCREEN
   void WiFiScan::eapolMonitorMain(uint32_t currentTime)
   {
-    //---------MAIN 'FOR' LOOP! THIS IS WHERE ALL THE ACTION HAPPENS! HAS TO BE FAST!!!!!---------\\
+    //-MAIN 'FOR' LOOP! THIS IS WHERE ALL THE ACTION HAPPENS! HAS TO BE FAST!!!!!-//
     
   
   //  for (x_pos = (11 + x_scale); x_pos <= 320; x_pos += x_scale) //go along every point on the x axis and do something, start over when finished
@@ -3192,7 +3192,7 @@ void WiFiScan::activeEapolSnifferCallback(void* buf, wifi_promiscuous_pkt_type_t
 
   void WiFiScan::packetMonitorMain(uint32_t currentTime)
   {
-    //---------MAIN 'FOR' LOOP! THIS IS WHERE ALL THE ACTION HAPPENS! HAS TO BE FAST!!!!!---------\\
+    //MAIN 'FOR'LOOP!THIS IS WHERE ALL THE ACTION HAPPENS!HAS TO BE FAST!!-//
     
     
   //  for (x_pos = (11 + x_scale); x_pos <= 320; x_pos += x_scale) //go along every point on the x axis and do something, start over when finished
