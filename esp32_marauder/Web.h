@@ -32,8 +32,8 @@ class Web
   private:
     
     PROGMEM const char* host = "esp32marauder";
-    PROGMEM const char* ssid = "MarauderOTA";
-    PROGMEM const char* password = "justcallmekoko";
+    PROGMEM const char* ssid = "yourssidhere";
+    PROGMEM const char* password = "yourpasswordhere";
 
     bool serving = false;
     
