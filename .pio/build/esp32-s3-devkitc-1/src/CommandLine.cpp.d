@@ -1,5 +1,5 @@
 .pio/build/esp32-s3-devkitc-1/src/CommandLine.cpp.o: src/CommandLine.cpp \
- src/CommandLine.h src/configs.h \
+ include/CommandLine.h include/configs.h \
  C:/Users/jruss/.platformio/packages/framework-arduinoespressif32/libraries/FS/src/FS.h \
  C:/Users/jruss/.platformio/packages/framework-arduinoespressif32/cores/esp32/Arduino.h \
  C:/Users/jruss/.platformio/packages/framework-arduinoespressif32/cores/esp32/esp_arduino_version.h \
@@ -135,7 +135,7 @@
  C:/Users/jruss/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/esp_event/include/esp_event_legacy.h \
  C:/Users/jruss/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/esp_wifi/include/esp_wifi_types.h \
  C:/Users/jruss/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/esp_wifi/include/esp_private/esp_wifi_types_private.h \
- include/esp_interface.h include/configs.h \
+ include/esp_interface.h \
  C:/Users/jruss/.platformio/packages/framework-arduinoespressif32/cores/esp32/HardwareSerial.h \
  C:/Users/jruss/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/esp_event/include/esp_event_base.h \
  C:/Users/jruss/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/esp_netif/include/esp_netif.h \
@@ -180,7 +180,7 @@
  C:/Users/jruss/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/esp_hw_support/include/soc/esp32/spiram.h \
  .pio/libdeps/esp32-s3-devkitc-1/LinkedList/LinkedList.h \
  C:/Users/jruss/.platformio/packages/framework-arduinoespressif32/libraries/SPIFFS/src/SPIFFS.h \
- src/Assets.h src/WiFiScan.h \
+ include/Assets.h include/WiFiScan.h \
  .pio/libdeps/esp32-s3-devkitc-1/ArduinoJson/src/ArduinoJson.h \
  .pio/libdeps/esp32-s3-devkitc-1/ArduinoJson/src/ArduinoJson.hpp \
  .pio/libdeps/esp32-s3-devkitc-1/ArduinoJson/src/ArduinoJson/Configuration.hpp \
@@ -210,19 +210,22 @@
  C:/Users/jruss/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/esp_wifi/include/esp_wifi_crypto_types.h \
  C:/Users/jruss/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/esp_wifi/include/esp_private/wifi_os_adapter.h \
  C:/Users/jruss/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/esp_wifi/include/esp_wifi_default.h \
- src/SDInterface.h \
+ include/SDInterface.h \
  C:/Users/jruss/.platformio/packages/framework-arduinoespressif32/libraries/SD/src/SD.h \
  C:/Users/jruss/.platformio/packages/framework-arduinoespressif32/libraries/SPI/src/SPI.h \
  C:/Users/jruss/.platformio/packages/framework-arduinoespressif32/cores/esp32/esp32-hal-spi.h \
  C:/Users/jruss/.platformio/packages/framework-arduinoespressif32/libraries/SD/src/sd_defines.h \
- src/Buffer.h src/settings.h \
+ include/Buffer.h include/settings.h \
  C:/Users/jruss/.platformio/packages/framework-arduinoespressif32/libraries/Update/src/Update.h \
  C:/Users/jruss/.platformio/packages/framework-arduinoespressif32/cores/esp32/MD5Builder.h \
  C:/Users/jruss/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/esp_rom/include/esp_rom_md5.h \
- src/BatteryInterface.h src/TemperatureInterface.h src/flipperLED.h \
- src/LedInterface.h \
+ include/BatteryInterface.h \
+ C:/Users/jruss/.platformio/packages/framework-arduinoespressif32/libraries/Wire/src/Wire.h \
+ C:/Users/jruss/.platformio/packages/framework-arduinoespressif32/cores/esp32/esp32-hal.h \
+ include/TemperatureInterface.h include/flipperLED.h \
+ include/LedInterface.h \
  .pio/libdeps/esp32-s3-devkitc-1/Adafruit\ NeoPixel/Adafruit_NeoPixel.h \
- src/Web.h \
+ include/Web.h \
  C:/Users/jruss/.platformio/packages/framework-arduinoespressif32/libraries/WiFi/src/WiFiClient.h \
  C:/Users/jruss/.platformio/packages/framework-arduinoespressif32/libraries/WebServer/src/WebServer.h \
  C:/Users/jruss/.platformio/packages/framework-arduinoespressif32/libraries/WebServer/src/HTTP_Method.h \

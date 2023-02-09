@@ -1,5 +1,5 @@
 .pio/build/esp32-s3-devkitc-1/src/Buffer.cpp.o: src/Buffer.cpp \
- src/Buffer.h \
+ include/Buffer.h \
  C:/Users/jruss/.platformio/packages/framework-arduinoespressif32/cores/esp32/Arduino.h \
  C:/Users/jruss/.platformio/packages/framework-arduinoespressif32/cores/esp32/esp_arduino_version.h \
  C:/Users/jruss/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/freertos/include/freertos/FreeRTOS.h \
@@ -181,8 +181,8 @@
  C:/Users/jruss/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/spi_flash/include/esp_spi_flash.h \
  C:/Users/jruss/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/spi_flash/include/esp_spi_flash_counters.h \
  C:/Users/jruss/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/esp_hw_support/include/soc/esp32/spiram.h \
- src/settings.h src/configs.h \
+ include/settings.h \
  .pio/libdeps/esp32-s3-devkitc-1/ArduinoJson/src/ArduinoJson.h \
  .pio/libdeps/esp32-s3-devkitc-1/ArduinoJson/src/ArduinoJson.hpp \
  .pio/libdeps/esp32-s3-devkitc-1/ArduinoJson/src/ArduinoJson/Configuration.hpp \
- src/lang_var.h
+ include/lang_var.h

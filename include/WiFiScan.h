@@ -11,7 +11,7 @@
 
 // Testing NimBLE
 #ifdef HAS_BT
-  #include <NimBLEDevice.h>
+  //#include <NimBLEDevice.h>  //clear BT err
 #endif
 
 #include <WiFi.h>
@@ -19,7 +19,7 @@
 #include "esp_wifi.h"
 #include "esp_wifi_types.h"
 #ifdef HAS_BT
-  #include "esp_bt.h"
+  //#include "esp_bt.h" //clear BT err
 #endif
 #ifdef HAS_SCREEN
   #include "Display.h"
@@ -141,9 +141,9 @@ class WiFiScan
     int bluetoothScanTime = 5;
     int packets_sent = 0;
     const wifi_promiscuous_filter_t filt = {.filter_mask=WIFI_PROMIS_FILTER_MASK_MGMT | WIFI_PROMIS_FILTER_MASK_DATA};
-    #ifdef HAS_BT
-      NimBLEScan* pBLEScan;
-    #endif
+    // #ifdef HAS_BT
+    //  NimBLEScan* pBLEScan; // remove BT
+    // #endif
 
     //String connected_network = "";
     String alfa = "1234567890qwertyuiopasdfghjkklzxcvbnm QWERTYUIOPASDFGHJKLZXCVBNM_";
@@ -270,9 +270,9 @@ class WiFiScan
     void RunPacketMonitor(uint8_t scan_mode, uint16_t color);
     void RunBluetoothScan(uint8_t scan_mode, uint16_t color);
     void RunLvJoinWiFi(uint8_t scan_mode, uint16_t color);
-    #ifdef HAS_BT
-      static void scanCompleteCB(BLEScanResults scanResults);
-    #endif
+    // #ifdef HAS_BT
+      // static void scanCompleteCB(BLEScanResults scanResults);
+    // #endif //remove BT
 
     //int ieee80211_raw_frame_sanity_check(int32_t arg, int32_t arg2, int32_t arg3);
 

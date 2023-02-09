@@ -1,5 +1,5 @@
 .pio/build/esp32-s3-devkitc-1/src/Display.cpp.o: src/Display.cpp \
- src/Display.h src/configs.h \
+ include/Display.h include/configs.h \
  C:/Users/jruss/.platformio/packages/framework-arduinoespressif32/libraries/FS/src/FS.h \
  C:/Users/jruss/.platformio/packages/framework-arduinoespressif32/cores/esp32/Arduino.h \
  C:/Users/jruss/.platformio/packages/framework-arduinoespressif32/cores/esp32/esp_arduino_version.h \
@@ -135,7 +135,7 @@
  C:/Users/jruss/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/esp_event/include/esp_event_legacy.h \
  C:/Users/jruss/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/esp_wifi/include/esp_wifi_types.h \
  C:/Users/jruss/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/esp_wifi/include/esp_private/esp_wifi_types_private.h \
- include/esp_interface.h include/configs.h \
+ include/esp_interface.h \
  C:/Users/jruss/.platformio/packages/framework-arduinoespressif32/cores/esp32/HardwareSerial.h \
  C:/Users/jruss/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/esp_event/include/esp_event_base.h \
  C:/Users/jruss/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/esp_netif/include/esp_netif.h \
@@ -180,4 +180,4 @@
  C:/Users/jruss/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/esp_hw_support/include/soc/esp32/spiram.h \
  .pio/libdeps/esp32-s3-devkitc-1/LinkedList/LinkedList.h \
  C:/Users/jruss/.platformio/packages/framework-arduinoespressif32/libraries/SPIFFS/src/SPIFFS.h \
- src/Assets.h src/lang_var.h
+ include/Assets.h include/lang_var.h

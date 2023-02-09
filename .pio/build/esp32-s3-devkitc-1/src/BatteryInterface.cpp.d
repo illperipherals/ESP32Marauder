@@ -1,5 +1,5 @@
 .pio/build/esp32-s3-devkitc-1/src/BatteryInterface.cpp.o: \
- src/BatteryInterface.cpp src/BatteryInterface.h \
+ src/BatteryInterface.cpp include/BatteryInterface.h \
  C:/Users/jruss/.platformio/packages/framework-arduinoespressif32/cores/esp32/Arduino.h \
  C:/Users/jruss/.platformio/packages/framework-arduinoespressif32/cores/esp32/esp_arduino_version.h \
  C:/Users/jruss/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/freertos/include/freertos/FreeRTOS.h \
@@ -181,4 +181,6 @@
  C:/Users/jruss/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/spi_flash/include/esp_spi_flash.h \
  C:/Users/jruss/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/spi_flash/include/esp_spi_flash_counters.h \
  C:/Users/jruss/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/esp_hw_support/include/soc/esp32/spiram.h \
- src/configs.h src/lang_var.h
+ C:/Users/jruss/.platformio/packages/framework-arduinoespressif32/libraries/Wire/src/Wire.h \
+ C:/Users/jruss/.platformio/packages/framework-arduinoespressif32/cores/esp32/esp32-hal.h \
+ include/lang_var.h
