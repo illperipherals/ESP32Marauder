@@ -22,7 +22,7 @@
 //#include <User_Setup.h>           // Default setup is root library folder
 
 //#include <User_Setup_og_marauder.h>
-#include <User_Setup_marauder_mini.h>
+//#include <User_Setup_marauder_mini.h>  //default OG ghg
 
 //#include <User_Setups/Setup1_ILI9341.h>  // Setup file configured for my ILI9341
 //#include <User_Setups/Setup2_ST7735.h>   // Setup file configured for my ST7735
@@ -52,7 +52,7 @@
 //#include <User_Setups/Setup22_TTGO_T4.h>           // Setup file for ESP32 and TTGO T4 (BTC) ILI9341 SPI bus TFT
 //#include <User_Setups/Setup23_TTGO_TM.h>           // Setup file for ESP32 and TTGO TM ST7789 SPI bus TFT
 //#include <User_Setups/Setup24_ST7789.h>            // Setup file configured for ST7789 240 x 240
-//#include <User_Setups/Setup25_TTGO_T_Display.h>    // Setup file for ESP32 and TTGO T-Display ST7789V SPI bus TFT
+#include <User_Setups/Setup25_TTGO_T_Display.h>    // Setup file for ESP32 and TTGO T-Display ST7789V SPI bus TFT used in T-embed ESP32-23
 //#include <User_Setups/Setup26_TTGO_T_Wristband.h>  // Setup file for ESP32 and TTGO T-Wristband ST7735 SPI bus TFT
 
 //#include <User_Setups/Setup27_RPi_ST7796_ESP32.h>    // ESP32   RPi MHS-4.0 inch Display-B
@@ -135,6 +135,7 @@
 #elif defined (EPD_DRIVER)
      #include "TFT_Drivers/EPD_Defines.h"
      #define  TFT_DRIVER 0xE9D
+// ST7789 for the T-embed
 #elif defined (ST7789_DRIVER)
      #include "TFT_Drivers/ST7789_Defines.h"
      #define  TFT_DRIVER 0x7789
